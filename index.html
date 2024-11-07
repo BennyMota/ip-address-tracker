@@ -27,20 +27,40 @@
           <i class="fa-solid fa-angle-right"></i>
         </button>
       </form>
+    </section>
 
+    <section class="data-section">
 
+      <article>
+        <h2>IP Address</h2>
+        <p class="ipAddressField"></p>
+      </article>
+      <hr>
+      <article>
+        <h2>Location</h2>
+        <p class="locationInput"></p>
+      </article>
+      <hr>
+      <article>
+        <h2>ISP</h2>
+        <P class="ispInput"></P>
+      </article>
+    </section>
+
+    <section class="map-section">
+      <div id="map"></div>
     </section>
 
   </main>
 
-  
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" 
+    crossorigin=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type='module' src='config.js'></script>
 
-  Search for any IP address or domain
+  <script type='module' src="app.js"></script>
 
-  IP Address
-  Location
-  Timezone
-  ISP
-  
+
 </body>
 </html>
