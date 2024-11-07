@@ -38,7 +38,7 @@ body::-webkit-scrollbar {
 .header-section {
   position: relative;
   width: 100%;
-  background-image: url("images/pattern-bg.png");
+  background-image: url("images/pattern-bg-desktop.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
